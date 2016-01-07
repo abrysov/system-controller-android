@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This will clear data for Browser and Calculator" />
+
+    <Button
+        android:id="@+id/btn_clear_app_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear App Data" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This will install Menu app from the sdcard's root folder" />
+
+    <Button
+        android:id="@+id/btn_install_package"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Install App" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This will set system UI mode" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_system_ui_disable_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disable All" />
+
+        <Button
+            android:id="@+id/btn_system_ui_enable_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable All" />
+
+        <Button
+            android:id="@+id/btn_system_ui_enable_navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable Navigation" />
+
+    </LinearLayout>
+    
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App installation" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_app_installation_enable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable" />
+
+        <Button
+            android:id="@+id/btn_app_installation_disable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disable" />
+
+    </LinearLayout>
+</LinearLayout>
